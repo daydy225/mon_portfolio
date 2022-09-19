@@ -1,5 +1,5 @@
 /* Google Fonts source code Pro et source sans Pro */
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@400;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@400;900&display=swap');
 
 *,
 *::before,
@@ -8,8 +8,8 @@
 }
 /* Customs properties */
 :root {
-  --ff-primary: "Source Sans Pro", sans-serif;
-  --ff-secondary: "Source Code Pro", monospace;
+  --ff-primary: 'Source Sans Pro', sans-serif;
+  --ff-secondary: 'Source Code Pro', monospace;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -227,7 +227,7 @@ header {
 
 .hamburger::before,
 .hamburger::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -260,8 +260,8 @@ header {
     margin: 0 auto;
     grid-column-gap: 1em;
     grid-template-areas:
-      "img titre"
-      "img soustitre";
+      'img titre'
+      'img soustitre';
     grid-template-columns: min-content max-content;
   }
 
@@ -285,7 +285,7 @@ header {
 /* Mes Services */
 .my-services {
   background-color: var(--clr-darkblue);
-  background-image: url("../img/backgroung_img.png");
+  background-image: url('../img/backgroung_img.png');
   background-size: cover;
   /* background-blend-mode: multiply; */
   background-repeat: no-repeat;
@@ -298,7 +298,7 @@ header {
 }
 
 .section__titre--services::after {
-  content: "";
+  content: '';
   display: block;
   width: 2.5em;
   height: 1px;
@@ -342,9 +342,9 @@ header {
     display: grid;
     grid-template-columns: 1fr 200px;
     grid-template-areas:
-      "titre img"
-      "soustitre img"
-      "texte img";
+      'titre img'
+      'soustitre img'
+      'texte img';
     grid-column-gap: 2em;
   }
 
